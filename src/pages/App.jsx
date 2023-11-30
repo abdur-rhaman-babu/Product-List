@@ -158,7 +158,7 @@ const App = () => {
             </div>
 
             <label>Comment:</label> <br />
-              <textarea  style={{padding:'2px 5px', resize:'none'}} className="text-area" id="text-area" cols="87" rows="0px" maxLength={30} 
+              <textarea required  style={{padding:'2px 5px', resize:'none'}} className="text-area" id="text-area" cols="87" rows="0px" maxLength={30} 
               onChange={(e)=>setComment(e.target.value)}value={comment}></textarea>
             <div className="submit-btn">
               <button  className="btn-success">Submit</button>
